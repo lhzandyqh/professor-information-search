@@ -98,5 +98,6 @@ export default {
   .copyrightContainer {
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 20px;
   }
 </style>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import homepage from '@/components/homePage/index'
 import professorindex from '@/components/professorInformation/index'
+import test from '@/components/professorInformation/test'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/professorindex',
       name: 'professorindex',
       component: professorindex
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: test
     }
   ]
 })
